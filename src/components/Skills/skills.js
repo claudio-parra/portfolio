@@ -12,7 +12,7 @@ const Skills = () => {
         <div className="skillBars">
 
             <div className="skillBar">
-                <img src={reactImg} alt="react image" className="skillBarImg" />
+                <img src={reactImg} alt="react image" className="React logo image" />
                 <div className="skillBarText">
                     <h2>React</h2>
                     
@@ -20,7 +20,7 @@ const Skills = () => {
             </div>
 
             <div className="skillBar">
-                <img src={mongoDb} alt="Mongo Image" className="skillBarImg" />
+                <img src={mongoDb} alt="Mongo Image" className="Mongodb logo image" />
                 <div className="skillBarText">
                     <h2>MongoDB</h2>
                     
@@ -28,7 +28,7 @@ const Skills = () => {
             </div>
 
             <div className="skillBar">
-                <img src={nextjs} alt="Next js image" className="skillBarImg" />
+                <img src={nextjs} alt="Next js image" className="Next.js logo image" />
                 <div className="skillBarText">
                     <h2>Next.js</h2>
                     

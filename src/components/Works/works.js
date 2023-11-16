@@ -1,8 +1,5 @@
 import React from 'react'
 import './works.css'
-import portfolio1 from '../../assets/portfolio1.png'
-import portfolio2 from '../../assets/portfolio2.png'
-import portfolio3 from '../../assets/portfolio3.png'
 
 
 const Works = () => {
