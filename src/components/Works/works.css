@@ -22,24 +22,13 @@
     font-size: 1rem;
     max-width: 80%;
 }
-.worksImgs{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    max-width: 65rem;
-    flex-wrap: wrap;
-}
-
-.worksImg{
-    object-fit: cover;
-    height: 20rem;
-    margin: 0.5rem;
-}
 
 .workImgs{
     display: flex;
-    margin-top: 0.5rem;
+    margin-top: 2rem;
+    justify-content: center;
+    gap: 2rem;
+
 }
 
 .project1{
@@ -48,11 +37,28 @@
     margin: 0.5rem;
     background-color: rgb(60, 59, 59);
     text-align: center;
-    
-    
 }
 
 .project1 p {
     padding:0.5rem;
     padding-top: 50%;
 }
+
+.card{
+    width: 80%;
+    height: auto;
+    background-color: rgb(60, 59, 59);
+    border-radius: 20px;
+}
+.card img{
+width: 100%;
+height: 228px;
+}
+.card h2{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.card p{
+    padding: 1rem;
+}
+
