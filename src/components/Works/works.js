@@ -14,6 +14,14 @@ const Works = () => {
         <div className="workImgs">
 
           <div className='card'>
+          <div className='card'>
+            <a target='_blank' href="https://plums-sepia.vercel.app/welcome">
+                <img src={plums} alt="" />
+                <h2>Plums notes</h2>
+                <p>Reactjs/Nextjs Full Stack web app with OAuth user authentication, account login, notes/files management system.</p>
+            </a>
+          </div>
+
             <a target='_blank' href="https://cardeal.onrender.com">
                 <img src={carShop} alt="" />
                 <h2>CarShop site</h2>
@@ -26,14 +34,6 @@ const Works = () => {
                 <img src={toDoList} alt="" />
                 <h2>To-Do List</h2>
                 <p>Express/MongoDB API with OAuth user authentication, account creation, Google login, and comprehensive error handling.</p>
-            </a>
-          </div>
-
-          <div className='card'>
-            <a target='_blank' href="#">
-                <img src={plums} alt="" />
-                <h2>Plums notes</h2>
-                <p>Reactjs/Nextjs Full Stack web app with OAuth user authentication, account login, notes/files management system.</p>
             </a>
           </div>
 
