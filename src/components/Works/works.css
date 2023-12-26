@@ -28,6 +28,7 @@
     margin-top: 2rem;
     justify-content: center;
     gap: 2rem;
+    flex-wrap: wrap;
 
 }
 
@@ -45,7 +46,7 @@
 }
 
 .card{
-    width: 80%;
+    width: 25rem;
     height: auto;
     background-color: rgb(60, 59, 59);
     border-radius: 20px;
@@ -60,5 +61,10 @@ height: 228px;
 }
 .card p{
     padding: 1rem;
+}
+
+a p, a h2{
+    text-decoration: none;
+    color: white;
 }
 
