@@ -13,8 +13,7 @@ const Works = () => {
         
         <div className="workImgs">
 
-          <div className='card'>
-          <div className='card'>
+        <div className='card'>
             <a target='_blank' href="https://plums-sepia.vercel.app/welcome">
                 <img src={plums} alt="" />
                 <h2>Plums notes</h2>
@@ -22,6 +21,7 @@ const Works = () => {
             </a>
           </div>
 
+          <div className='card'>
             <a target='_blank' href="https://cardeal.onrender.com">
                 <img src={carShop} alt="" />
                 <h2>CarShop site</h2>
