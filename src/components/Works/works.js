@@ -14,7 +14,7 @@ const Works = () => {
         <div className="workImgs">
 
         <div className='card'>
-            <a target='_blank' href="https://plums-sepia.vercel.app/welcome">
+            <a target='_blank' href="https://plums-olive.vercel.app">
                 <img src={plums} alt="" />
                 <h2>Plums notes</h2>
                 <p>Reactjs/Nextjs Full Stack web app with OAuth user authentication, account login, notes/files management system.</p>
