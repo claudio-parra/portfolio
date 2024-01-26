@@ -10,7 +10,7 @@
 .bg{
     position: absolute;
     right: 0;
-    bottom:-4rem;
+    bottom:-7rem;
     z-index: -1;
     object-fit: cover;
     height: 90vh;
@@ -67,11 +67,9 @@
 }
 @media screen and (max-width:650px){
     .bg{
-        /* bottom:-30px;
-        right:-200px; */
-        max-width: 60%; 
-        overflow: visible;
-
+        /* max-width: 60%; 
+        overflow: visible; */
+        right: -11rem;
     }
 
 }
