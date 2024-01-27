@@ -69,8 +69,8 @@
     .bg{
         /* max-width: 60vw;  */
         overflow: visible;
-        bottom: 0;
-        right:0;
+        bottom: -6rem;
+        right:-3rem;
         height: 85vh;
     }
 
