@@ -10,7 +10,7 @@
 .bg{
     position: absolute;
     right: 0;
-    bottom:-7rem;
+    bottom:-8rem;
     z-index: -1;
     object-fit: cover;
     height: 90vh;
