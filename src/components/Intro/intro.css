@@ -67,8 +67,8 @@
 }
 @media screen and (max-width:650px){
     .bg{
-        /* max-width: 60vw;  */
-        overflow: visible;
+        max-width: 140vw; 
+        overflow: hidden;
         bottom: -6rem;
         right:-3rem;
         height: 85vh;
