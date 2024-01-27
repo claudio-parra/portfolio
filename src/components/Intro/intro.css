@@ -3,6 +3,7 @@
     width: 100vw;
     /* max-width: 80%; */
     margin: 0 auto;
+    /* overflow-y: hidden; */
     /* overflow: hidden; */
     /* position: relative; */
 }   
@@ -10,7 +11,7 @@
 .bg{
     position: absolute;
     right: 0;
-    bottom:-6rem;
+    bottom:0;
     z-index: -1;
     object-fit: contain;
     height: 90vh;
@@ -67,11 +68,14 @@
 }
 @media screen and (max-width:650px){
     .bg{
-        max-width: 140vw; 
-        overflow: hidden;
-        bottom: -6rem;
-        right:-3rem;
-        height: 85vh;
+        position: absolute;
+        right: 0;
+        bottom: 7rem;
+        z-index: -1;
+        object-fit: contain;
+        max-width: 100%; /* Ensure the image does not exceed the width of the container */
+        height: auto;   /* Maintain aspect ratio */
+        max-height: 90vh;
     }
 
 }
