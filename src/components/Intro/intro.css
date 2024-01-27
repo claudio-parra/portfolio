@@ -3,7 +3,7 @@
     width: 100vw;
     max-width: 80%;
     margin: 0 auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* position: relative; */
 }   
 
@@ -69,7 +69,8 @@
     .bg{
         max-width: 60vw; 
         overflow: visible;
-        right: -1rem;
+        bottom: 0;
+        right:0;
         height: 85vh;
     }
 
