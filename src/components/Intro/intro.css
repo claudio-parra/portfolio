@@ -76,5 +76,8 @@
         max-width: 100%; /* Ensure the image does not exceed the width of the container */
         height: auto;   /* Maintain aspect ratio */
     }
+    .introContent{
+        justify-content:flex-start;
+    }
 
 }
