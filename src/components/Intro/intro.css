@@ -10,7 +10,7 @@
 .bg{
     position: absolute;
     right: 0;
-    bottom:-8rem;
+    bottom:-7rem;
     z-index: -1;
     object-fit: cover;
     height: 90vh;
@@ -70,6 +70,7 @@
         /* max-width: 60%; 
         overflow: visible; */
         right: -11rem;
+        height: 85vh;
     }
 
 }
