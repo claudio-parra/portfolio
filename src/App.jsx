@@ -29,7 +29,7 @@ const App = () => {
         <Projects />
         <Contact />
       </div>
-    </div>
+    </div> // force a redeploy
   )
 }
 
