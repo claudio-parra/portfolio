@@ -3,7 +3,8 @@ import { FaLinkedin, FaGithub, FaMoon } from "react-icons/fa"
 import { MdWbSunny } from "react-icons/md";
 
 const Navbar = () => {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light")
+  const userPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches
+  const [theme, setTheme] = useState(userPrefersDark ? "dark" : "light")
 
   useEffect(() => {
     if (theme === "dark") {
@@ -11,8 +12,18 @@ const Navbar = () => {
     } else {
       document.documentElement.classList.remove("dark")
     }
-    localStorage.setItem("theme", theme)
   }, [theme])
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)")
+    const handleChange = (e) => {
+      setTheme(e.matches ? "dark" : "light")
+    }
+    mediaQuery.addEventListener("change", handleChange)
+    return () => {
+      mediaQuery.removeEventListener("change", handleChange)
+    }
+  }, [])
 
   const toggleTheme = () => {
     setTheme(theme === "light" ? "dark" : "light")
