@@ -1,6 +1,7 @@
 import plums from "../assets/projects/plums.png";
 import carShop from "../assets/projects/carShop.png";
 import toDoList from "../assets/projects/toDoList.png";
+import pirateStyleStage from "../assets/projects/pirateStyleStage.png";
 
 export const HERO_CONTENT = `I am a passionate full-stack developer with extensive experience in crafting robust, scalable web applications. Specializing in front-end technologies like React and Next.js, and back-end technologies such as Node.js, MySQL, PostgreSQL, and MongoDB. My mission is to deliver innovative, high-performance web solutions that provide exceptional user experiences and drive business growth.`;
 
@@ -48,6 +49,14 @@ export const PROJECTS = [
       "A RESTful API built with Express.js and MongoDB for managing to-do lists. Features OAuth authentication (Google login), account creation, and CRUD operations for tasks. Includes Swagger documentation for easy API exploration and testing.",
     technologies: ["Express.js", "MongoDB", "OAuth", "Swagger", "Mongoose"],
     url: "https://todolist-237p.onrender.com/",
+  },
+  {
+    title: "Pirate Style Stage",
+    image: pirateStyleStage,
+    description:
+      "Showcasing a pirate-themed style with a parallax effect, this CSS design follows Style Stage guidelines, including the restriction that base HTML cannot be modified, to create an immersive experience, giving the illusion of flying over islands.",
+    technologies: ["CSS", "Parallax Scrolling", "Creativity", "Responsive Design"],
+    url: "https://pirate-style-stage.vercel.app/",
   },
 ];
 
