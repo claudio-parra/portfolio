@@ -1,4 +1,5 @@
-import React from "react"
+import React, { useEffect } from 'react';
+import { initGA, logPageView } from './utils/analytics';
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import About from "./components/About"
@@ -8,6 +9,10 @@ import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 
 const App = () => {
+  useEffect(() => {
+    initGA();
+    logPageView();
+  }, []);
   return (
     <div className="overflow-x-hidden dark:text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
       
